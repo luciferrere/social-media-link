@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(231, 220, 220);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+div#black {
+    background: black;
+    width: 90% auto;
+    height: 50em;
+    padding: 100px;
+}
+
+div#layer{
+    color: white;
+    background: rgb(26, 25, 25);
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    height: 30em;
+}
+
+/* This is the header section */
+
+img {
+    border: 2px solid none;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 20%;
+    height: auto;
+}
+
+h1{
+    color: rgb(249, 247, 247);
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p.london{
+    color: rgb(183, 183, 26);
+    margin-top: 0;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+p.about{
+    color: rgb(203, 189, 189);
+    font-size: 10px
+}
+
+/* This is the other section */
+
+.github{
+    background: rgb(74, 72, 72);
+    padding: 10px;
+    margin: 10px;
+    font-size: 9px;
+    color: rgb(246, 243, 243);
+    border-radius: 10px;
+}
+
+.frontend{
+    background: rgb(74, 72, 72);
+    padding: 10px;
+    margin: 10px;
+    font-size: 9px;
+    color: rgb(246, 243, 243);
+    border-radius: 10px;
+}
+
+.linkedin{
+    background: rgb(74, 72, 72);
+    padding: 10px;
+    margin: 10px;
+    font-size: 9px;
+    color: rgb(246, 243, 243);
+    border-radius: 10px;
+}
+
+.twitter{
+    background: rgb(74, 72, 72);
+    padding: 10px;
+    margin: 10px;
+    font-size: 9px;
+    color: rgb(246, 243, 243);
+    border-radius: 10px;
+}
+
+.instagram{
+    background: rgb(74, 72, 72);
+    padding: 10px;
+    margin: 10px;
+    font-size: 9px;
+    color: rgb(246, 243, 243);
+    border-radius: 10px;
+}
+
+/* This is the footer section */
+
+footer p a{
+    text-decoration: none;
+    color: rgb(31, 26, 183);
+}
+
+footer p a:hover{
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(183, 183, 26);
+
+}
+
+footer{
+    font-size: 10px;
+    color: rgb(246, 243, 243);
+}
+
+/* Media Query */
+@media screen and (max-width: 768px){
+    div#layer{
+        width: 100%;
+        padding: 0 auto;
+        margin: 0;
+    }
+}
